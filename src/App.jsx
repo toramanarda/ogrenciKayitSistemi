@@ -7,7 +7,7 @@ const records = [
     ad: "Orhan",
     soyad: "Ekici",
     ePosta: "orhanekici@gmail.com",
-    dogumTarihi: "1988-03-17"
+    dogumTarihi: "1989-03-17"
   },
   {
     id: 2,
@@ -18,17 +18,10 @@ const records = [
   },
   {
     id: 3,
-    ad: "Sıla",
-    soyad: "Kara",
-    ePosta: "sila@gmail.com",
-    dogumTarihi: "2003-09-08"
-  },
-  {
-    id: 4,
-    ad: "Ezel",
-    soyad: "Çakın",
-    ePosta: "ezel@gmail.com",
-    dogumTarihi: "2002-08-07"
+    ad: "Nihat",
+    soyad: "Duysak",
+    ePosta: "duysaknihat@gmail.com",
+    dogumTarihi: "1988-02-12"
   },
 ];
 

@@ -4,10 +4,10 @@ import './App.css';
 const records = [
   {
     id: 1,
-    ad: "Sude",
-    soyad: "Taştekin",
-    ePosta: "sude@gmail.com",
-    dogumTarihi: "2002-07-26"
+    ad: "Orhan",
+    soyad: "Ekici",
+    ePosta: "orhanekici@gmail.com",
+    dogumTarihi: "1988-03-17"
   },
   {
     id: 2,

@@ -1,6 +1,37 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
+const records = [
+  {
+    id: 1,
+    ad: "Sude",
+    soyad: "Taştekin",
+    ePosta: "sude@gmail.com",
+    dogumTarihi: "2002-07-26"
+  },
+  {
+    id: 2,
+    ad: "Arda",
+    soyad: "Toraman",
+    ePosta: "arda@gmail.com",
+    dogumTarihi: "2004-04-01"
+  },
+  {
+    id: 3,
+    ad: "Sıla",
+    soyad: "Kara",
+    ePosta: "sila@gmail.com",
+    dogumTarihi: "2003-09-08"
+  },
+  {
+    id: 4,
+    ad: "Ezel",
+    soyad: "Çakın",
+    ePosta: "ezel@gmail.com",
+    dogumTarihi: "2002-08-07"
+  },
+];
+
 function App() {
   const [data, setData] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
